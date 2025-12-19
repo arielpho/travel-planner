@@ -66,7 +66,7 @@ export function Sidebar({ page, setPage }) {
           </li>
         </Link>
       </ul>
-test
+
     </div>
   );
 }
