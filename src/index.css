@@ -1,0 +1,246 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Varela Round", sans-serif;
+  color: #1f78b0;
+  font-family: sans-serif;
+}
+
+.font {
+  font-family: "Varela Round", sans-serif;
+
+  font-style: normal;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+
+  min-height: 100vh;
+  background-color: #FFECCC;
+  background-image: url(img/wave.svg);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+ a {
+  color: #1f78b0;
+  text-decoration: none;
+ }
+
+button {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  background-color: #daf1ff;
+  color:#1f78b0;
+
+  border-radius: 50px;
+  border: none;
+  margin: 10px;
+  padding: 10px 30px;
+}
+strong {
+  font-weight: 800;
+}
+button:hover {
+  background-color: #7dcdff;
+}
+input {
+  border-radius: 20px;
+  padding: 10px;
+  border-color: #1f78b0;
+  margin: 10px;
+  border-style: solid;
+  
+}
+#side-logo {
+  width: 150px;
+  padding: 30px;
+}
+.onPage {
+  background-color: #1f78b0;
+  color: rgba(221, 251, 255, 1);
+
+}
+.sump {
+  font-size: 30px;
+}
+.sidebar {
+
+  flex: 1;
+background: #A5DCFF;
+background: linear-gradient(0deg, rgba(165, 220, 255, 1) 1%, rgba(221, 251, 255, 1) 56%, rgba(255, 236, 204, 1) 100%);  border-right: 0px double #ece6f8; 
+  
+/* background-color: white; */
+border-right: 5px solid white;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  ul {
+    list-style-type: none;
+    padding: 50px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 2px solid;
+    margin: 30px;
+    
+
+    li a {
+      display: block;
+      padding: 1rem 4rem;
+      text-decoration: none;
+      margin: 0px;
+
+      &:hover {
+        background-color: #1f78b0;
+      
+        color: rgba(221, 251, 255, 1);
+      }
+    }
+  }
+}
+ul.list {
+  padding: 30px 0px;
+}
+.listdiv {
+  padding: 40px;
+  width: 70%;
+}
+.list {
+  background-color: white;
+  margin: 0px;
+  padding: 50px 0px;
+  list-style-type: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+/* .blue {
+  /* background-color: #e0f3ff; */
+/* } */ 
+.placeholder {
+  background-color: white;
+  padding: 50px 50px;
+  border-radius: 20px;
+
+}
+label {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  accent-color: #A5DCFF;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.planner {
+  justify-content: center;
+
+}
+.warning {
+  background-color: rgb(255, 102, 102);
+  color: white;
+  padding: 10px;
+  border-radius: 40px;
+}
+.planhead {
+border: 5px solid white;
+  margin-top: 30px;
+  padding: 0px 50px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+ 
+}
+.planner-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  p {
+    width: 60%;
+  }
+  &:hover {
+    background-color: #fffae6;
+  }
+}
+.luggage-type {
+  /* font-family: Lilita; */
+  color: #1f78b0;
+ 
+}
+#planInputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.planbutts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0px 80px;
+}
+.bodychunk {
+  background-color: rgb(238, 250, 251);
+  padding: 30px;
+  border-radius: 20px;
+  width: 70%;
+}
+.luggage-type p {
+  margin: 10px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  
+}
+h1 {
+  color:#A5DCFF;
+  background-color: #1f78b0;
+  width: 70%;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 0px;
+  border: 5px solid rgba(221, 251, 255, 1) ;
+}
+
+.luggage-type h2 {
+  color: #1f78b0;
+  background-color: #A5DCFF;
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+
+.lug_icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.weight {
+  font-size: 20px;
+  font-family: "Pacifico", "san";
+}
+
+.lugtitle {
+  display: flex;
+  align-items: baseline;
+}
+
+.main {
+  flex: 5;
+  padding: 3rem;
+  box-sizing: border-box;
+}
